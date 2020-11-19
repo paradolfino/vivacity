@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @sub_issue.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @sub_issue.description %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @sub_issue.status %>
+</p>
+
+<p>
+  <strong>Team member:</strong>
+  <%= @sub_issue.team_member_id %>
+</p>
+
+<p>
+  <strong>Project:</strong>
+  <%= @sub_issue.project_id %>
+</p>
+
+<p>
+  <strong>Organization:</strong>
+  <%= @sub_issue.organization_id %>
+</p>
+
+<p>
+  <strong>Team:</strong>
+  <%= @sub_issue.team_id %>
+</p>
+
+<p>
+  <strong>Issue:</strong>
+  <%= @sub_issue.issue_id %>
+</p>
+
+<%= link_to 'Edit', edit_sub_issue_path(@sub_issue) %> |
+<%= link_to 'Back', sub_issues_path %>
